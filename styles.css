@@ -24,6 +24,8 @@ h1 span { color: #acb3ed; }
 .status span { width: 13px; height: 13px; border-radius: 50%; background: var(--blue); }
 .intro h2 { margin: 0; color: var(--violet); font-size: clamp(32px, 4vw, 53px); font-weight: 900; letter-spacing: -.055em; line-height: 1.07; }
 .intro h2 span { color: var(--blue); }
+.intro__email { margin-top: 30px; color: var(--blue); font-size: 19px; font-weight: 700; text-decoration: none; }
+.intro__email:hover, .intro__email:focus-visible { text-decoration: underline; }
 .ordering { padding: 30px 0 26px; }
 .ordering > h2 { display: flex; align-items: center; gap: 16px; margin: 0 0 19px; color: var(--violet); font-size: clamp(25px, 3vw, 39px); letter-spacing: -.04em; line-height: 1.1; }
 .cart { display: grid; width: 55px; height: 55px; place-items: center; flex: 0 0 auto; border-radius: 50%; background: var(--violet); color: white; font-family: Georgia, serif; font-size: 43px; font-weight: 700; transform: rotate(180deg); }
@@ -57,6 +59,7 @@ footer a:hover, footer a:focus-visible { text-decoration: underline; }
   .intro { min-height: 430px; padding: 58px 0; }
   .status { margin-bottom: 24px; padding: 10px 17px; font-size: 12px; }
   .intro h2 br { display: none; }
+  .intro__email { margin-top: 24px; font-size: 17px; }
   .ordering { padding: 32px 0; }
   .ordering__cards { grid-template-columns: 1fr; gap: 16px; }
   .card { min-height: auto; padding: 22px; border-radius: 16px; }
